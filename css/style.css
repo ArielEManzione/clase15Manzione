@@ -1,0 +1,115 @@
+input {
+    width: 45px;
+}
+
+.logo{
+    height: 8%;
+    width: 8%;
+}
+
+@font-face {
+    font-family: fontQatar;
+    src: url(../font/Qatar2022Arabic-Bold.ttf);
+}
+
+.navbar-qatar {
+    background-color: #742149f8;
+}
+
+.navbar-qatar .navbar-text{
+    color: rgb(255, 255, 255);
+    font-family: fontQatar;
+}
+
+body{
+    background-color: #b43171f8;
+    color: rgb(255, 255, 255);
+}
+
+.grupos{
+    margin: 3em;
+    display: inline-flex;
+    position: relative;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+th, td{
+    background-color:  rgba(245, 245, 220, 0.178);
+    padding: 10px 20px;
+    border: 1px solid #b43171f8;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 0.9em;
+}
+
+th{
+    font-weight: 800;
+    font-size: 0.9em;
+    /* border-top-right-radius: 1em;
+    border-top-left-radius: 1em; */
+}
+
+.contenedor{
+    margin: 0 auto;
+    display: inline-flex;
+    width: max-content;
+}
+
+.partido{
+    display: inline-block;
+    padding: 2em;
+    margin: 1em;
+    background-color: rgba(245, 245, 220, 0.178);
+    border-radius: 2em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+
+th button, .contenedor button{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;    
+    border:0.1em solid #99255d;
+    border-radius:0.3em;
+    box-sizing: border-box;
+    color: #ffffff;
+    transition: all 0.2s;
+    background-color: transparent;    
+}
+
+#tabla{
+    margin: 1em;
+}
+
+.contenedor button{
+    display:inline-block;    
+    margin: 1em;
+    font-size:1em;
+    padding:0.35em 1.2em;
+       
+}
+
+th button{
+    margin-left: 0.5em;
+    padding: 0.25em 0.5em;
+}
+
+.contenedor button:hover{
+    background-color:#94285cec;
+}
+
+@media all and (max-width:30em){
+    .button1{
+        display:block;
+        margin:0.4em auto;
+    }
+} 
+
+.contenedor h4{
+    color: rgb(233, 152, 152);
+    font-size: 1em;
+}
